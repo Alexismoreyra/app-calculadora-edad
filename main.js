@@ -26,7 +26,7 @@ function calcularEdad (fecha) {
   
   const edad = fechaActual.diff (fecha_cumpleaños,'years');
 
-  return edad.add (100,'years');
+  return edad;
 }
 
 boton.addEventListener('click', ()=>{
